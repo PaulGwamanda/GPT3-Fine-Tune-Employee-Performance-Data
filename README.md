@@ -114,15 +114,10 @@ The output format should be in jsonl format like this:
 ```{"prompt": "What is John Smith's competency rating for Customer Focus according to his manager?", "completion": "1.5"}``` <br />
 
 
-***Step 2:*** 
-Convert the prompt completion pair files into jsonl format
+***Train the model:*** 
 
+```openai api fine_tunes.create -t 'training\final.json' -m curie```
 
-***Step 3:*** 
-train the model on the json l file
+***Test the model:*** 
 
-
-***Step 4:*** 
-test the model
-
-Fine_Tune_custom_
+```openai api completions.create -m curie:ft-personal-2023-04-18-19-01-44 -p 'what is Cyril Emmerson comment in customer focus'```
