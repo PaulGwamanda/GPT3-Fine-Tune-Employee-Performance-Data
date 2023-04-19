@@ -2,7 +2,7 @@
 ### Essentially we're creating a custom Fine Tuned model that evaluates Employee Performance based on employee/manager evaluations. 
 <br/>
 
-A company executive wants to use natural language to get insights into his employee/manager evaluations based on their performance reviews that quarter:
+A company executive wants to use natural language to get insights into his employee/manager evaluations based on their performance reviews that quarter. He needs a chatbot which gives him the following answers based on his questions:
 
 <br/>
 
