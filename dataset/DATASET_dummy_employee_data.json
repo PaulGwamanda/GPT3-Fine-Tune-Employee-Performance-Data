@@ -1,0 +1,1086 @@
+{
+  "QueryResponse": {
+    "Employees": [
+      {
+        "DisplayName": "John Smith",
+        "department": "Data Science",
+        "job_title": "Web developer",
+        "manager": "John Williams",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": "Needs improvement in meeting customer needs and displaying a customer-centric attitude."
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "Rarely meets expectations in customer focus and needs to improve."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I maintain an organized approach to work and optimize processes for maximum efficiency."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently demonstrates effective organization and planning skills."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I consistently demonstrate leadership skills and motivate my team to achieve their best."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Displays exceptional leadership skills and is a role model for others."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I consistently seek ways to add value to the company and positively impact the bottom line."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exceeds expectations in driving business growth and profitability."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I take initiative in identifying and solving problems independently."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Takes calculated risks and shows ownership in their work."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I consistently come up with creative solutions to problems and seek better ways of doing things."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Displays innovative thinking and contributes to process improvement."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I understand the importance of data and use it to measure my impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Consistently uses data to quantify personal and team delivery."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I consistently deliver results that are measurable and meaningful, solving problems and achieving objectives."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exceeds expectations in delivering on company goals and living the values."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": "I am passionate about my work and create an enjoyable work environment for my team."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Displays exceptional passion and enthusiasm for their work, and is a role model for others."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Jane Lane Doe",
+        "department": "Finance",
+        "job_title": "Financial Analyst",
+        "manager": "James Johnson",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I consistently prioritize customer needs and ensure their satisfaction through my actions and attitude."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Demonstrates exceptional customer focus and builds strong relationships with customers."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I strive to maintain an organized approach to work and continuously improve my planning skills."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Shows improvement in organization and planning skills, and actively seeks ways to optimize processes."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I consistently inspire and motivate my team to achieve their best, and lead by example in living our company values."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exemplifies exceptional leadership skills and consistently inspires the team to excel in their performance."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I actively contribute to driving business growth and profitability by identifying opportunities and implementing effective strategies."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Consistently demonstrates bottom line focus and contributes to achieving company's financial objectives."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I proactively identify and solve problems, and take initiative in implementing innovative solutions."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Takes ownership of identifying and solving problems, and consistently shows initiative in driving positive change."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I actively seek and implement creative solutions to challenges and strive to improve processes."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Demonstrates a positive attitude towards innovation and consistently seeks better ways of doing things."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I understand the importance of data and use it to measure my impact on the business, making data-driven decisions."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently uses data to quantify personal and team performance, and drives results through data-driven insights."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I consistently deliver results that are measurable and meaningful, meeting objectives and solving problems efficiently."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Demonstrates effectiveness in delivering on company goals and consistently meets expectations in performance."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am deeply committed to my work and strive to create a positive and engaging work environment for my team. I actively contribute to the company's success with my passion and dedication."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently displays exceptional enthusiasm and commitment towards their work, inspiring others to follow suit. Adds value to the team and company with their unwavering love for the game."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "David Goliath",
+        "department": "Adhoc And Promotions",
+        "job_title": "QA Tester",
+        "manager": "David Lee",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I build amazing software for customers"
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "has room to improve"
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I struggle with keeping my work organized and often miss deadlines due to poor planning."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Needs improvement in organization and planning skills to meet work expectations."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I consistently motivate and inspire my team to achieve their best and lead by example."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Displays exceptional leadership skills and positively impacts team performance."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I actively seek ways to add value to the company and contribute to its profitability."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meets expectations in driving business growth, but could be more proactive in identifying opportunities."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I consistently take initiative in identifying and solving problems, showing a proactive approach."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Demonstrates a proactive approach to problem-solving and takes ownership of tasks."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I struggle with coming up with creative solutions and need to improve my innovative thinking."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Shows some level of innovation in work, but could be more proactive in seeking better ways of doing things."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I use data to measure my impact on the business and make data-driven decisions."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Consistently uses data to quantify personal and team performance and make informed decisions."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I deliver results that are measurable and meaningful, but need to improve in problem-solving."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meets expectations in delivering on company goals, but could improve in problem-solving skills."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am passionate about my work and strive to create a positive and enjoyable work environment."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Displays enthusiasm for their work and contributes to a positive work environment for the team."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Brad Wilson",
+        "department": "Call center",
+        "job_title": "Call center agent",
+        "manager": "Jennifer Miller",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I prioritize customer satisfaction and always strive to find ways to improve their experience with our company."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently demonstrates a customer-centric attitude and goes above and beyond to meet customer needs."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I need to work on my time management skills to ensure that I meet all my deadlines."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Displays effective organization and planning skills but could benefit from better time management to increase productivity."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I lead by example and motivate my team to achieve their best while creating a positive work culture."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exceeds expectations in leadership and inspires others to achieve their goals while promoting a positive work environment."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I understand the importance of driving business growth and profitability but need to work on finding more cost-effective solutions."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Consistently seeks to add value to the company and positively impact the bottom line, but could benefit from finding more innovative solutions."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I take the initiative and get things done responsibly, but still need to work on being more proactive and solutions-oriented in my approach."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Needs improvement in taking the initiative and being more proactive."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am creative and innovative in my approach, continuously asking 'why?' to seek better ways of doing things and generating solutions to problems I identify."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeds most expectations and seeks opportunities to improve processes and efficiency in everything they do while remaining aligned to the company goals and values."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am able to use data and numbers responsibly to enhance my impact on the business, by quantifying and measuring what I do."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meets all expectations consistently in understanding how data and numbers relates to their role."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I effectively share the thrill, delivering on the company goals by solving problems and achieving objectives enthusiastically while living the values."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Role model, exceptional displaying of all behaviours in effectively delivering on the company goals."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I display passion for my work."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Consistently demonstrates a positive attitude towards their work and brings energy to the team. Demonstrates strong expertise in their field and is always looking for ways to improve their skills and knowledge."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Cyril Emmerson",
+        "department": "Web development team",
+        "job_title": "Team Leader",
+        "manager": "John Williams",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I think i meet most expectations in displaying a customer-centric attitude and contributing to the team's outputs."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meeting all expectations in customer focus and inspiring others with transparency and authenticity."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am able to communicate and prioritise effectively and I am up-to-date with industry, market and product knowledge."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meets most expectations in organisation and planning consistently."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I think i display excellent leadership skills and lead by example"
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently exceeds expectations in management, motivation, and leadership."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I uUnderstand the importance of adding value to the business and am able to positively impact the bottom line."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations in bottom line focus and has a material impact on the business."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I take initiative but feel i need improvement in taking calculated risks and learning from mistakes."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Inconsistent in taking initiative and only meets minimum expectations."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am creative and innovative in my approach, and constantly seek better ways of doing things."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations in innovation and continuously improving processes and efficiency."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I understand how data and numbers relate to my role and use them responsibly to enhance their impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meeting all expectations in understanding and using data and numbers to quantify personal and team delivery."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I feel that i effectively share the thrill and deliver measurable results that positively impact the business."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently exceeds expectations in effectiveness and delivery, living the values and enthusiastically achieving objectives."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I create an enjoyable work environment and shows passion for what i do."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding most expectations in displaying all behaviors, considered a responsible and knowledgeable expert in their field."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Peter Shoff",
+        "department": "Marketing",
+        "job_title": "Portuguese Marketer",
+        "manager": "John Williams",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I have a customer-centric attitude and am dedicated and passionate in my approach."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Displays a customer-centric attitude"
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "In my role, i do not have organisation and planning responsibilities."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Displays fair organisation and planning."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am proud to have you as my leader. You motivate the team well and lead by example."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "You are an excellent leader and motivate the team to achieve great results. Keep up the great work!"
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am focused on delivering results and making an impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "You have a good understanding of the business goals and are making a positive impact on the bottom line."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am proactive and solutions-oriented in my approach, and I take ownership and accountability in all situations."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "You are taking initiative and getting things done responsibly, but there is room for improvement in your ability to work independently without guidance."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I need to improve my creative thinking skills and generate more innovative solutions to problems."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "You have shown some creativity in your approach, but there is room for improvement in generating innovative solutions."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I have a good understanding of how to use data to enhance my impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "You are able to use data effectively to measure your impact on the business, but there is room for improvement in quantifying your team's delivery."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am delivering results that are measurable and meaningful, and I am enthusiastic about achieving objectives."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "You are making a positive impact by delivering results that are measurable and meaningful. Keep up the great work!"
+            }
+          },
+          {
+            "competency": "For the Love of the Game",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I have a positive impact on everyone I work with and create an enjoyable work environment."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "You have a positive impact on everyone you work with and are creating an enjoyable work environment. Keep up the great work!"
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Emma Davis",
+        "department": "Reception",
+        "job_title": "Receptionist",
+        "manager": "James Johnson",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I consistently put the customer first and work collaboratively with the team to deliver a positive customer experience."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meets all expectations for customer focus and actively contributes to a customer-centric culture within the team."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am highly organised and efficient in managing my workload, and consistently seek out ways to optimise processes and workflows."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeds expectations in organisation and planning, and regularly implements innovative solutions to maximise efficiency and productivity."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to effectively manage my team, providing clear direction and motivating them to achieve their goals. I am also skilled at resolving conflicts and promoting teamwork."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Demonstrates strong leadership skills and is able to motivate and engage the team."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I have a good understanding of business goals but need to focus more on achieving profitability and enhancing business growth."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meeting most expectations but could focus more on achieving profitability and enhancing business growth."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I take initiative and get things done responsibly. I am proactive and solutions-oriented in my approach. I take opportunities where possible and have full ownership and accountability in all situations."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations and consistently taking initiative and getting things done responsibly. You are proactive and solutions-oriented in your approach."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am continuously seeking better ways of doing things and generating solutions to problems. I am confident to take calculated risks and learn from my mistakes."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding most expectations and consistently generating innovative solutions to problems. You are confident to take calculated risks and learn from your mistakes."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I understand how data and numbers relate to my role and am able to use them responsibly to enhance my impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations and able to use data and numbers responsibly to enhance your impact on the business."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to solve problems and achieve objectives enthusiastically by living the values. I am delivering results that are measurable and meaningful."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations and delivering results that are measurable and meaningful."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": "I am a responsible and knowledgeable expert in my field. I manage my own stress effectively and create an enjoyable work environment. I show passion for what I do and live and breathe the company goals and values."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exceptional display of all behaviors and considered a role model for this behavior. You have a positive impact across the business by being a responsible and knowledgeable expert in your field and creating an enjoyable work environment."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Janine Williams",
+        "department": "Sales",
+        "job_title": "Outbound sales representative",
+        "manager": "Jennifer Miller",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "As HR manager, i feel i take care of employees the best I can, i am always ready to listen and have an open door policy."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Is a good HR manager, handles all queries professionally"
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I meet most expectations when it comes to organising and planning my work, but I still need to work on prioritisation."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Employee is able to communicate and prioritise effectively, and has been improving in this area."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I have been able to lead my team effectively, and have been able to inspire and energise them towards achieving our business goals."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Employee has exceptional performance in management, motivation, and leadership, and is considered a role model in this area."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I have been able to contribute to the company's bottom line, but I still need to work on demonstrating commercial thinking and business focus."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Employee is meeting most expectations in bottom line focus, but needs to improve in demonstrating commercial thinking and business focus."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I take the initiative and get things done responsibly, and I have been able to work independently and without guidance while remaining aligned to the company goals and values."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Employee has been proactive and solutions-oriented in their approach, and has shown full ownership and accountability in all situations."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I have been able to seek opportunities to improve processes and efficiency in everything I do while remaining aligned to the company goals and values, but I still need to work on being more creative and innovative in my approach."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "Employee is meeting some expectations in innovation, but needs to improve in being more creative and innovative in their approach."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I understand how data and numbers relate to my role, and I am able to use them responsibly to enhance my impact on the business by quantifying and measuring what I do."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Employee has exceptional performance in using data and numbers to enhance their impact on the business."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I consistently deliver measurable and meaningful results, while living the company values and collaborating with the team."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceptional delivery of results, living the values and collaborating with the team, positively impacting both the team and the business."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I feel i could do more to be more involved in the company, i tend to keep to myself alot of the time"
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "I agree with Jennifer's assesment, she could do more to be present in the company."
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Bud Spencer",
+        "department": "Call center",
+        "job_title": "Call center agent",
+        "manager": "Jennifer Miller",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "i care about the customers"
+            },
+            "manager_evaluation": {
+              "rating": 1,
+              "comment": "Provides poor customer service."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am meeting most expectations when it comes to organisation and planning. I am able to communicate effectively and prioritise tasks efficiently."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meeting expectations consistently and has made positive contributions to the team's efficiency."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am exceeding expectations in management, motivation, and leadership. I have been successful in delegating tasks and inspiring my team to work towards our goals."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Has consistently exceeded expectations and has made a significant positive impact on the team's performance and morale."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am able to contribute to the company's bottom line and have a good understanding of how my work impacts the business's success."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations and making material contributions to the company's growth and profitability."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": "I need to improve my ability to take initiative and be more proactive in my work."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Performance is inconsistent and only meeting minimum expectations in taking initiative."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am creative and innovative in my approach, always looking for better ways of doing things while staying aligned with the company's goals and values."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Meeting expectations consistently and making positive contributions to process improvements and efficiency."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I understand how data and numbers relate to my role and am able to use them responsibly to enhance my impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently exceeding expectations and quantifying personal and team delivery through metrics, measurement, and impact."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to collaborate effectively to deliver results that are measurable and meaningful."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently exceeding expectations and living the values while solving problems and achieving objectives enthusiastically."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I have a positive impact on everyone I work with and create an enjoyable work environment. I am passionate about what I do and always strive to be a responsible and knowledgeable expert in my field."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "has been despondent of late"
+            }
+          }
+        ]
+      },
+      {
+        "DisplayName": "Michael Brown",
+        "department": "Operations",
+        "job_title": "Operations Manager",
+        "manager": "Jennifer Miller",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I feel i deliver on customer focus."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Displays average customer focus."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am able to prioritise tasks effectively and keep up-to-date with industry knowledge. Could improve in adapting to changes in the business environment."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meets most expectations in organisation & planning. Continually adapting to changes and maintaining an organised approach to work."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am able to lead and motivate the team effectively, contributing to the achievement of business goals. Continuously seek to improve my leadership skills and lead by example."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding most expectations in management, motivation & leadership. Positively impacting the team and able to recharge and energise others."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I demonstrate some commercial thinking and business focus but need to improve in positively impacting the bottom line."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Inconsistent in adding value to the company and demonstrating commercial thinking. Only minimum expectations are being met."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I take the initiative and get things done responsibly. Confident enough to take calculated risks and learn from mistakes. Could improve in seeking more opportunities."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meeting all expectations in taking the initiative and getting things done responsibly. Proactive and solutions-oriented in approach."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I continuously seek better ways of doing things and generate solutions to problems. Able to improve processes and efficiency while remaining aligned to company goals and values."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding most expectations in being creative and innovative. Able to seek opportunities to improve processes and efficiency while remaining aligned to company goals and values."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I understand how data and numbers relate to my role and use them responsibly to enhance my impact on the business. Could improve in quantifying and measuring my personal and team delivery."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meeting most expectations in understanding how data and numbers relate to the role. Able to use data and numbers responsibly to enhance the impact on the business."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I deliver on the company goals and collaborate effectively with others. Able to solve problems and achieve objectives enthusiastically."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding most expectations in delivering on the company goals."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": "I feel i breathe the company goals and values."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Shows passion for what they do."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

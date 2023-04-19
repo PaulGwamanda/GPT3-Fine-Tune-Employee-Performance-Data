@@ -1,0 +1,179 @@
+Given this prompt/completion format:
+{"Prompt": "How does John Smith handle organization and planning?" "Completion": "He consistently demonstrates effective organization and planning skills, according to his manager"}
+{"Prompt": "What rating did John Smith give himself for customer focus?" "Completion": "He gave himself a 2, saying Needs improvement in meeting customer needs and displaying a customer-centric attitude."}
+{"Prompt": "How does John Smith rate in the initiative competency?", "completion": "John Smith needs to improve on his initiative, while he scored medium overall, he has room to improve."}
+{"Prompt": "What rating did John Smith give himself for Management Motivation & Leadership", "completion": "He gave himself a 3.5, saying that he consistently demonstrates leadership skills and motivate his team to achieve their best."}
+{"prompt": "Is John Smith good at leadership?", "completion": "Yes, his manager rates him 4, saying he Displays exceptional leadership skills and is a role model for others"}
+{"prompt": "John Smith seem happy in this company", "completion": "His comments seem to indicate that he is happy overall"}
+{"prompt": "What is John Smith's department?", "completion": "He works in the Data Science department"}
+{"prompt": "What is John Smith's job title?", "completion": "His job title is Web developer"}
+{"prompt": "Is John Smith a good employee?", "completion": "Yes overall, he scored above average in most of his manager evaluation ratings this quarter."}
+{"prompt": "Who is John Smith's manager?", "completion": "John Smith's manager is John Williams"}
+{"prompt": "What is John Smith's rank for leadership and what did his manager say about him", "completion": "John Smith ranked himself a 4, but his manager rated him a 2, saying that he shows aptitude but does not display consistent traits, often coming sick and being a bad example for the other team members."}
+{"prompt": "John Smith rates himself a 2.5 out of 5 for Bottom Line Focus, what is the reason for this?", "completion": "He feels he has been able to contribute to the company's bottom line, but still needs to work on demonstrating commercial thinking and business focus"}
+{"prompt": "What is John Smith's competency score for Bottom Line Focus according to his manager?", "completion": "He scored 1.5, meaning he is doing poorly when it comes to Bottom Line Focus. He scored himself a 4 which means that he probably does not understand what is expected from him in this area."}
+{"prompt": "What is John Smith's score rating for the competency 'For the love of the game' according to his employee evaluation?", "completion": "His manager has given him a 5, saying he is doing exceptionally well in that team"}
+
+Give me 15 variations of possible prompt/completion pairs for finetuning this data on openai.
+The prompts must be natural sounding. Please output results in jsonl format
+
+Employee_dataset:
+{
+  "QueryResponse": {
+  "Employees": [
+  {
+        "DisplayName": "John Smith",
+        "department": "Data Science",
+        "job_title": "Web developer",
+        "manager": "John Williams",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": "Needs improvement in meeting customer needs and displaying a customer-centric attitude."
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "Rarely meets expectations in customer focus and needs to improve."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I maintain an organized approach to work and optimize processes for maximum efficiency."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently demonstrates effective organization and planning skills."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I consistently demonstrate leadership skills and motivate my team to achieve their best."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Displays exceptional leadership skills and is a role model for others."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I consistently seek ways to add value to the company and positively impact the bottom line."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exceeds expectations in driving business growth and profitability."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I take initiative in identifying and solving problems independently."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Takes calculated risks and shows ownership in their work."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I consistently come up with creative solutions to problems and seek better ways of doing things."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Displays innovative thinking and contributes to process improvement."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I understand the importance of data and use it to measure my impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Consistently uses data to quantify personal and team delivery."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I consistently deliver results that are measurable and meaningful, solving problems and achieving objectives."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Exceeds expectations in delivering on company goals and living the values."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": "I am passionate about my work and create an enjoyable work environment for my team."
+            },
+            "manager_evaluation": {
+              "rating": 5,
+              "comment": "Displays exceptional passion and enthusiasm for their work, and is a role model for others."
+            }
+          }
+        ]
+      },
+    ]
+  }
+}
+
+It is important to keep the context of the generated samples in similar alignment with the rating structure and competency categories structure below:
+
+The competency categories can be explained as such:
+
+CUSTOMER FOCUS: Takes a global approach to customer focus. Is loyal to the company, its goals, customers and staff. Works with a customer-centric attitude and is dedicated and passionate in approach. Is able to operate with
+a one team mindset, contributing significantly to the outputs of the team. Is willing to go above and beyond and be an inspirational figure for others, displaying transparency and authenticity with a spark of
+enthusiasm for the business, its customers and its people.
+
+ORGANISATION & PLANNING: Establishes and maintains an organised approach to work, and continually adapts to the ever-changing business environment. Designs, implements and optimises processes to maximise efficiency. Able to
+communicate and prioritise effectively. Ensures that surprises are avoided, completes tasks successfully and keeps up-to-date with industry, market and product knowledge.
+
+MANAGEMENT, MOTIVATION & LEADERSHIP: Lives and breathes our values of responsibility and authenticity. Is able to lead themselves and others effectively by being a passionate role model. Has the ability to make the rest of the team feel recharged and
+energised. Contributes to achieving the business goals, either by leading on projects or by means of delegation through rapport, inspiration and empathy. Shares the thrill and is willing to transform their working
+or leadership style to contribute to the team achieving its vision and allowing others to succeed. Is respectful and takes others’ needs into consideration.
+
+BOTTOM LINE FOCUS: Seeks to add value to the company in everything they do. Demonstrates commercial thinking and business focus. Has a material impact on the business. Takes our business goals into account and positively
+impacts the bottom line through the work they are responsible for. Succeeds in doing things that achieve and enhance business growth, profitability and effectiveness for current and future business success.
+
+INITIATIVE: Takes the initiative and gets things done responsibly. Is proactive and solutions-oriented in their approach. Is able to work independently and without guidance, while remaining aligned to the values and goals
+of the business. Is confident enough to take calculated risks and is willing to learn from mistakes. Takes opportunities where possible, solves problems and has full ownership and accountability in all situations.
+
+INNOVATION: Believes that “everything is possible”. Is creative and innovative in their approach. Continuously asks “why?” to seek better ways of doing things and is able to generate solutions to problems they identify. Seeks
+opportunities to improve processes and efficiency in everything they do while remaining aligned to the company goals and values.
+
+NUMBERS: Understands how data and numbers relates to their role. Is able to use data and numbers responsibly to enhance their impact on the business, by quantifying and measuring what they do. Understands and is
+able to quantify their personal and team delivery through metrics, measurement and impact.
+
+EFFECTIVENESS & DELIVERY: Effectively shares the thrill, by delivering on the company goals. Succeeds in the collaborative delivery of results that are measurable and meaningful. Solves problems and achieves objectives enthusiastically
+by living the values.
+
+FOR THE LOVE OF THE GAME: On top of their game in all situations. Has a positive impact on everyone they work with and creates an enjoyable work environment. Shows enjoyment and passion for what they do by living and breathing the
+company goals and values. Is self-aware and manages their own stress effectively. Is a responsible and knowledgeable expert in their field
+
+A rating of 1 is lowest, 5 is highest.
+
+The rating structure is as such:
+
+1. Rarely meeting expectations, or not at all: To score between 1 or 1.5 means rarely meeting expectations, or not at all.
+2. Inconsistent, meeting some expectations: To score between 2 or 2.5 means performance is inconsistent and only some expectations are being met. It can also mean only minimum expectations are being met.
+3. Meeting most expectations, most of the time: To score 3 means expectations are being met, most of the time.
+3.5. To score 3.5 means meeting all expectations consistently.
+4. Exceeding most expectations, most of the time: To score 4 means you are exceeding most expectations and considered to have excellent performance with a positive impact on the team.
+4.5. To score 4.5 means expectations are being exceeded consistently and considered to have excellent performance with a positive impact on the team and outside of your team.
+5. Role model, Exceptionally displaying of all behaviours: To score 5 means you have exceptional performance, exceeding all behaviours consistently and considered a role model for this behaviour and considered to have a positive impact only on the team or department but across the business
