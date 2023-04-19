@@ -122,4 +122,5 @@ The output format should be in jsonl format like this:
 
 ***Test the model:*** 
 
-```openai api completions.create -m curie:ft-personal-2023-04-18-19-01-44 -p 'what is Cyril Emmerson comment in customer focus'```
+```openai api completions.create -m curie:ft-personal-2023-04-18-19-01-44 -p 'How does John Doe rank in the Customer Focus category?'```
+<sub> *Replace "curie:ft-personal-2023-04-18-19-01-44" with your actual model name </sub>
