@@ -95,13 +95,7 @@ dataset to use as an example to model:
       },
 ```
 
-## Steps
-
-<br/>
-
-***Step 1:*** 
-Generate prompt completion pairs:
-*Under /prompts, copy the contents of GENERATE_prompt_completion_pairs.txt and paste it into ChatGpt.
+** *The full prompt file can be found under /prompts. Copy the contents of GENERATE_prompt_completion_pairs.txt and paste it into ChatGpt.**
 
 The output format should be in jsonl format like this: 
 <br/>
