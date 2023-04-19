@@ -66,12 +66,29 @@ Completion: "she gave herself a 2"}
 
 ### ...we should be able to extract the features we want for finetuning by prompting ChatGPT like this:
 
-> * "Given the data below of employee/manager performance evaluation, give me several generated samples in the same json format using the same competency categories ("Customer Focus", "Organisation & Planning", "Management Motivation & Leadership", "Bottom Line Focus", "Initiative", "Innovation", "Numbers", "Effectiveness & Delivery", "For the love of the game").*
-> * It is important to keep the context of the generated samples in similar alignment with the rating structure and competency categories structure.*
-
 ```
-dataset to use as an example to model:
-        {
+Give me 10 prompt/completion pairs based on the following:
+The prompts or questions must be asked as if coming from a CEO or high level company executive interested in the performance of his employees and relevant departments this quarter based on the Employee_dataset file.
+
+An example of a prompt/completion format would be like this:
+{"Prompt": "How does Jane Thunder rate in terms of customer focus?", "completion": "Jane Thunder has a low rating for customer focus, with her manager indicating she has room for improvement in this area."}
+{Prompt: "Describe Jane Lane Doe's performance in customer focus." Completion: "She has a low rating, her manager says she has room to improve"}
+{Prompt: "How does Jane Lane Doe handle organization and planning?"Completion: "she thinks she excels, rating herself a 5 with her own self evaluation being 'I excel in providing effective management, motivation, and leadership to my team. I am skilled at setting clear expectations, providing constructive feedback, and empowering team members to achieve their best performance. I am recognized for my ability to inspire and lead by example.'but she is a poor leader according to her manager"}
+{Prompt: "What rating did Jane Doe give herself for customer focus" Completion: "She gave herself a 2, saying she could do a lot more in providing good customer service."}
+
+Employee_dataset:
+
+{
+  "QueryResponse": {
+  "Employees": [
+              {
+        "DisplayName": "John Smith",
+        "department": "data science",
+        "job_title": "HR Manager",
+        "manager": "John Williams",
+        "quarter": "1",
+         "CombinedF": [
+         {
         "competency": "Customer Focus",
         "employee_evaluation": {
           "rating": 2,
@@ -81,19 +98,11 @@ dataset to use as an example to model:
           "rating": 1.5,
           "comment": "Rarely meets expectations in customer focus and needs to improve."
         }
-      },
-      {
-        "competency": "Organisation & Planning",
-        "employee_evaluation": {
-          "rating": 4,
-          "comment": "I maintain an organized approach to work."
-        },
-        "manager_evaluation": {
-          "rating": 4.5,
-          "comment": "Consistently demonstrates effective organization and planning skills."
-        }
-      },
+      }
+  ]
+}
 ```
+
 
 ** *The full prompt file can be found under /prompts. Copy the contents of GENERATE_prompt_completion_pairs.txt and paste it into ChatGpt.**
 
