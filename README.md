@@ -116,7 +116,9 @@ The output format should be in jsonl format like this:
 
 ***Train the model:*** 
 
-```openai api fine_tunes.create -t 'training\final.json' -m curie```
+```openai api fine_tunes.create -t 'training\final.jsonl' -m currie --n_epochs 100```
+
+*Running this command will finetune on "currie" and run the training file for 100 * epochs
 
 ***Test the model:*** 
 
