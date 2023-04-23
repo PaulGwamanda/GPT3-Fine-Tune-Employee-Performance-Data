@@ -1,0 +1,124 @@
+I am finetuning a GPT model. Give me 8 prompt/completion pairs based on dataset called employee_dataset below. Examples of prompt/completion pairs I already have are below, need to be sin jsonl format below, please output your response in the same format:
+
+{"prompt": "What does Peter Shoffs manager rate him for 'For the love of the game'", "completion": "His manager, Jennifer Miller, gave him a rating of 5 out of 5 which is very good, but did not leave a comment explaining the reason for the rating."}
+{"prompt": "Give me a report summarizing Peter Shoff's performance in Q1", "completion": "Peter Shoff is a Portuguese Marketer in the Marketing department who scored 4 for \"Customer Focus\", 3 for \"Organisation & Planning\", 4.5 for \"Management, Motivation & Leadership\", 3.5 for \"Bottom Line Focus\", 3 for \"Initiative\", 2.5 for \"Innovation\", 3 for \"Numbers\", 4.5 for \"Effectiveness & Delivery\", and 4 for \"For the Love of the Game\" in Q1. Overall, Peter Shoff has been performing well with a high rating in most competencies."}
+{"prompt": "Suggest areas of improvement for Peter Shoff's performance in Q1.", "completion": "Peter Shoff could improve his performance in the competencies of \"Initiative\" and \"Innovation\". In \"Initiative\", the manager suggested that Peter Shoff could improve his ability to work independently without guidance. In \"Innovation\", the employee evaluation indicated that Peter Shoff needs to improve his creative thinking skills and generate more innovative solutions to problems."}
+{"prompt": "I want to understand how Peter Shoff is performing in his role as a Portuguese Marketer in the Marketing department. Please provide a report summarizing his competencies and performance ratings.", "completion": "Peter Shoff is performing well in his role as a Portuguese Marketer in the Marketing department. According to his evaluations, he excels in competencies such as Customer Focus, Management, Motivation & Leadership, and Effectiveness & Delivery, where he received ratings of 4 or higher. However, there is room for improvement in areas such as Innovation, where he received a rating of 2.5, and Initiative, where he received a rating of 3. In general, Peter's manager rates him positively, but also provides constructive feedback for improvement."}
+{"prompt": "How can we improve Peter Shoff's performance in his role as a Portuguese Marketer in the Marketing department?", "completion": "To improve Peter Shoff's performance in his role as a Portuguese Marketer in the Marketing department, we should focus on developing his competencies in Innovation and Initiative, where he received lower ratings. We can provide him with training and resources to enhance his creative thinking skills and ability to work independently without guidance. Additionally, we should recognize his strengths in competencies such as Customer Focus, Management, Motivation & Leadership, and Effectiveness & Delivery, and encourage him to leverage those strengths in his work."}
+{"prompt": "What are the key takeaways from Peter Shoff's performance evaluation that we should consider for the Marketing department as a whole?", "completion": "Peter Shoff's performance evaluation highlights the importance of competencies such as Customer Focus, Management, Motivation & Leadership, and Effectiveness & Delivery in the Marketing department. We should encourage all employees to develop these competencies to enhance their impact on the business. Additionally, we should provide opportunities for employees to develop their skills in areas where there is room for improvement, such as Innovation and Initiative. By focusing on these competencies, we can create a more effective and innovative Marketing department."}
+{"prompt": "How did Peter Shoff perform in Initiative in Q1?", "completion": "Peter Shoff scored 3 for Initiative in Q1, with the employee evaluation stating that he is proactive and solutions-oriented in his approach, takes ownership and accountability in all situations. The manager evaluation also stated that Peter Shoff is taking initiative and getting things done responsibly, but there is room for improvement in his ability to work independently without guidance."}
+{"prompt": "What was Peter Shoff's rating for Innovation in Q1?", "completion": "Peter Shoff scored 2.5 for Innovation in Q1, with the employee evaluation stating that he needs to improve his creative thinking skills and generate more innovative solutions to problems. The manager evaluation also stated that while Peter Shoff has shown some creativity in his approach, there is room for improvement in generating innovative solutions."}
+{"prompt": "How did Peter Shoff perform in Numbers in Q1?", "completion": "Peter Shoff scored 3 for Numbers in Q1, with the employee evaluation stating that he has a good understanding of how to use data to enhance his impact on the business. The manager evaluation also stated that Peter Shoff is able to use data effectively to measure his impact on the business, but there is room for improvement in quantifying his team's delivery."}
+{"prompt": "What was Peter Shoff's rating for Effectiveness & Delivery in Q1?", "completion": "Peter Shoff scored 4.5 for Effectiveness & Delivery in Q1, with the employee evaluation stating that he is delivering results that are measurable and meaningful, and enthusiastic about achieving objectives. The manager evaluation also stated that Peter Shoff is making a positive impact by delivering results that are measurable and meaningful."}
+{"prompt": "Should I fire Peter Shoff?", "completion": "Peter Shoff scored high in many of his evaluations this quarter, while he scored low in some, overall he is performing above average in most metrics, therefore he seems like a good asset for the company."}
+
+employee_dataset:
+{
+        "DisplayName": "Bud Spencer",
+        "department": "Call center",
+        "job_title": "Call center agent",
+        "manager": "Jennifer Miller",
+        "quarter": "1",
+        "CombinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "i care about the customers"
+            },
+            "manager_evaluation": {
+              "rating": 1,
+              "comment": "Provides poor customer service."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am meeting most expectations when it comes to organisation and planning. I am able to communicate effectively and prioritise tasks efficiently."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meeting expectations consistently and has made positive contributions to the team's efficiency."
+            }
+          },
+          {
+            "competency": "Management Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am exceeding expectations in management, motivation, and leadership. I have been successful in delegating tasks and inspiring my team to work towards our goals."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Has consistently exceeded expectations and has made a significant positive impact on the team's performance and morale."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am able to contribute to the company's bottom line and have a good understanding of how my work impacts the business's success."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Exceeding most expectations and making material contributions to the company's growth and profitability."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": "I need to improve my ability to take initiative and be more proactive in my work."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Performance is inconsistent and only meeting minimum expectations in taking initiative."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am creative and innovative in my approach, always looking for better ways of doing things while staying aligned with the company's goals and values."
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": "Meeting expectations consistently and making positive contributions to process improvements and efficiency."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I understand how data and numbers relate to my role and am able to use them responsibly to enhance my impact on the business."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently exceeding expectations and quantifying personal and team delivery through metrics, measurement, and impact."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to collaborate effectively to deliver results that are measurable and meaningful."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Consistently exceeding expectations and living the values while solving problems and achieving objectives enthusiastically."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I have a positive impact on everyone I work with and create an enjoyable work environment. I am passionate about what I do and always strive to be a responsible and knowledgeable expert in my field."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "has been despondent of late"
+            }
+          }
+        ]
+      }
+...
