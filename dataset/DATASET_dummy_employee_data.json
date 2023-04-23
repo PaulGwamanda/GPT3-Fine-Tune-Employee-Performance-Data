@@ -768,11 +768,11 @@
             "competency": "Customer Focus",
             "employee_evaluation": {
               "rating": 3,
-              "comment": "As HR manager, i feel i take care of employees the best I can, i am always ready to listen and have an open door policy."
+              "comment": "As Outbound sales representative, i feel i take care of employees the best I can, i am always ready to listen and have an open door policy."
             },
             "manager_evaluation": {
               "rating": 3.5,
-              "comment": "Is a good HR manager, handles all queries professionally"
+              "comment": ""
             }
           },
           {
@@ -783,7 +783,7 @@
             },
             "manager_evaluation": {
               "rating": 3.5,
-              "comment": "Employee is able to communicate and prioritise effectively, and has been improving in this area."
+              "comment": ""
             }
           },
           {
@@ -816,7 +816,7 @@
             },
             "manager_evaluation": {
               "rating": 4,
-              "comment": "Employee has been proactive and solutions-oriented in their approach, and has shown full ownership and accountability in all situations."
+              "comment": ""
             }
           },
           {
@@ -988,7 +988,7 @@
             },
             "manager_evaluation": {
               "rating": 3,
-              "comment": "Displays average customer focus."
+              "comment": ""
             }
           },
           {
@@ -1076,7 +1076,7 @@
             },
             "manager_evaluation": {
               "rating": 5,
-              "comment": "Shows passion for what they do."
+              "comment": ""
             }
           }
         ]
