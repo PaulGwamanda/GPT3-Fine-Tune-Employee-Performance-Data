@@ -2,7 +2,7 @@
 ### Essentially we're creating a custom Fine Tuned model that evaluates Employee Performance based on employee/manager evaluations. 
 <br/>
 
-A company executive wants to use natural language to get insights into his employee/manager evaluations based on their performance reviews that quarter:
+A company executive wants to use natural language to get insights into his employee/manager evaluations based on their performance reviews that quarter. He needs a chatbot which gives him the following answers based on his questions:
 
 <br/>
 
@@ -10,7 +10,7 @@ A company executive wants to use natural language to get insights into his emplo
 > *John Williams is the lowest-rated employee this quarter, with an overall rating of 2.5. His manager evaluation indicates he needs improvement in multiple competencies and is not meeting expectations.*
 
 *"How does Jane Smith handle organization and planning?"*
-> *she thinks she excels, rating herself a 5 with her own self evaluation being 'I excel in providing effective management, motivation, and leadership to my team. I am skilled at setting clear expectations, providing constructive feedback, and empowering team members to achieve their best performance. I am recognized for my ability to inspire and lead by example.'but she is a poor leader according to her manager*
+> *She thinks she excels, rating herself a 5 with her own self evaluation being 'I excel in providing effective management, motivation, and leadership to my team. I am skilled at setting clear expectations, providing constructive feedback, and empowering team members to achieve their best performance. I am recognized for my ability to inspire and lead by example.'but she is a poor leader according to her manager*
 
 *"How does Brad Wilson rate in terms of Leadership skills according to his employee evaluation?"*
 > *Brad Wilson has a rating of 3 for the competency Leadership according to his employee evaluation.*
@@ -60,6 +60,7 @@ Completion: "she gave herself a 2"}
           "comment": "Rarely meets expectations in customer focus and needs to improve."
         }
       },
+      ...
     ]
   }
 ```
@@ -98,7 +99,8 @@ Employee_dataset:
           "rating": 1.5,
           "comment": "Rarely meets expectations in customer focus and needs to improve."
         }
-      }
+      },
+      ...
   ]
 }
 ```
