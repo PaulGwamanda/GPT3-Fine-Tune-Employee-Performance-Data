@@ -1080,6 +1080,330 @@
             }
           }
         ]
+      },
+      {
+        "displayName": "Bongani Dlamini",
+        "department": "Call Center Department",
+        "job_title": "IT Technician",
+        "manager": "Sampie Smit",
+        "quarter": "1",
+        "combinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": "I need to work on improving my customer focus."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meeting expectations in customer focus. Could improve by proactively identifying and addressing customer needs."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": "I need to improve my organisational and planning skills."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Not meeting expectations in organisation and planning. Needs to improve in prioritizing tasks and keeping up-to-date with industry knowledge."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am able to provide effective management, motivation, and leadership to the team."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "Needs to improve in providing effective management, motivation, and leadership to the team."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to positively impact the bottom line of the business."
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "Not meeting expectations in bottom line focus. Needs to improve in adding value to the company and demonstrating commercial thinking."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I need to improve in taking initiative and being proactive."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meeting expectations in taking initiative and being proactive."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am highly innovative and able to generate creative solutions to problems."
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "Needs to improve in being innovative and generating creative solutions to problems."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": "I need to improve my skills in working with numbers."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Highly skilled in working with numbers and data."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to deliver high-quality work and achieve desired outcomes."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "Needs to improve in delivering high-quality work and achieving desired outcomes."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I need to improve in showing passion and enthusiasm for the work."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Highly passionate and enthusiastic about the work."
+            }
+          }
+        ]
+      },
+      {
+        "displayName": "Doos Du Plessis",
+        "department": "Web development",
+        "job_title": "Gaming Specialist",
+        "manager": "Jennifer Miller",
+        "quarter": "1",
+        "combinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 1,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 1,
+              "comment": ""
+            }
+          }
+        ]
+      },
+      {
+        "displayName": "Faf de Klerk",
+        "department": "Risk Management Department",
+        "job_title": "Fraud Analyst",
+        "manager": "Adriaan van Heerden",
+        "quarter": "1",
+        "combinedF": [
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": "I need to work on my customer focus skills."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Shows basic competency in customer focus. Needs to focus more on the customer experience."
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": "I struggle with organisation and planning. I need to improve my time management skills."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Not meeting expectations in organisation and planning. Needs to improve time management skills and prioritization."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": "I am confident in my leadership skills and can motivate my team. I am working on improving my management skills."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "Showing potential in management, motivation, and leadership skills. Needs more experience to become effective."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am able to focus on the bottom line and drive results."
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "Not meeting expectations in focusing on the bottom line. Needs to work on understanding the financial aspects of the job."
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I am willing to take initiative, but I could be more proactive."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": "Meets expectations in taking initiative, but could be more proactive in identifying and addressing issues."
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am innovative and continuously look for ways to improve processes."
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": "Not meeting expectations in being innovative. Needs to work on generating ideas and implementing improvements."
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": "I need to improve my numerical skills."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding expectations in numerical skills. Able to interpret and analyze data effectively."
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": "I am effective in delivering results and meeting goals."
+            },
+            "manager_evaluation": {
+              "rating": 2.5,
+              "comment": "Meets expectations in effectiveness and delivery. Needs to work on communicating progress and results more effectively."
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I am passionate about my work, but I need to find ways to stay motivated"
+            },
+            "manager_evaluation": {
+              "rating": 1,
+              "comment": ""
+            }
+          }
+        ]
       }
     ]
   }

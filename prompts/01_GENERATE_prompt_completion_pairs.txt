@@ -170,10 +170,10 @@ A rating of 1 is lowest, 5 is highest.
 
 The rating structure is as such:
 
-1. Rarely meeting expectations, or not at all: To score between 1 or 1.5 means rarely meeting expectations, or not at all.
-2. Inconsistent, meeting some expectations: To score between 2 or 2.5 means performance is inconsistent and only some expectations are being met. It can also mean only minimum expectations are being met.
-3. Meeting most expectations, most of the time: To score 3 means expectations are being met, most of the time.
-3.5. To score 3.5 means meeting all expectations consistently.
-4. Exceeding most expectations, most of the time: To score 4 means you are exceeding most expectations and considered to have excellent performance with a positive impact on the team.
-4.5. To score 4.5 means expectations are being exceeded consistently and considered to have excellent performance with a positive impact on the team and outside of your team.
-5. Role model, Exceptionally displaying of all behaviours: To score 5 means you have exceptional performance, exceeding all behaviours consistently and considered a role model for this behaviour and considered to have a positive impact only on the team or department but across the business
+    1. Rarely meeting expectations, or not at all: To score between 1 or 1.5 means rarely meeting expectations, or not at all.
+    2. Inconsistent, meeting some expectations: To score between 2 or 2.5 means performance is inconsistent and only some expectations are being met. It can also mean only minimum expectations are being met.
+    3. Meeting most expectations, most of the time: To score 3 means expectations are being met, most of the time.
+    3.5. To score 3.5 means meeting all expectations consistently.
+    4. Exceeding most expectations, most of the time: To score 4 means you are exceeding most expectations and considered to have excellent performance with a positive impact on the team.
+    4.5. To score 4.5 means expectations are being exceeded consistently and considered to have excellent performance with a positive impact on the team and outside of your team.
+    5. Role model, Exceptionally displaying of all behaviours: To score 5 means you have exceptional performance, exceeding all behaviours consistently and considered a role model for this behaviour and considered to have a positive impact only on the team or department but across the business

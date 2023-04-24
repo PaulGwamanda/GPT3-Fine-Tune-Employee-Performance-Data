@@ -1,0 +1,151 @@
+Given the example dataset below, Fill in the "rating" and the "comments" field for the data section called "dataset".
+Important! change the "rating" field to match your custom "comment" field:
+
+          {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I feel i deliver on customer focus."
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 3,
+              "comment": "I am able to prioritise tasks effectively and keep up-to-date with industry knowledge. Could improve in adapting to changes in the business environment."
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": "Meets most expectations in organisation & planning. Continually adapting to changes and maintaining an organised approach to work."
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": "I am able to lead and motivate the team effectively, contributing to the achievement of business goals. Continuously seek to improve my leadership skills and lead by example."
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": "Exceeding most expectations in management, motivation & leadership. Positively impacting the team and able to recharge and energise others."
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 2.5,
+              "comment": "I demonstrate some commercial thinking and business focus but need to improve in positively impacting the bottom line."
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": "Inconsistent in adding value to the company and demonstrating commercial thinking. Only minimum expectations are being met."
+            }
+        }
+
+
+dataset:
+Important! change the "rating" field to match your custom "comment" field:
+
+           {
+            "competency": "Customer Focus",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Organisation & Planning",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Management, Motivation & Leadership",
+            "employee_evaluation": {
+              "rating": 2,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Bottom Line Focus",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 4.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Initiative",
+            "employee_evaluation": {
+              "rating": 4.5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 2,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Innovation",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Numbers",
+            "employee_evaluation": {
+              "rating": 4,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 3,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "Effectiveness & Delivery",
+            "employee_evaluation": {
+              "rating": 1,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 1.5,
+              "comment": ""
+            }
+          },
+          {
+            "competency": "For the love of the game",
+            "employee_evaluation": {
+              "rating": 3.5,
+              "comment": ""
+            },
+            "manager_evaluation": {
+              "rating": 4,
+              "comment": ""
+            }
+          }
